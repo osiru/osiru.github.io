@@ -5,6 +5,14 @@
     <meta charset="utf-8">
 <style>
   /* GLOBAL STYLES */
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-size: 2em;
+    margin-top: 0;
+  }
   a {
     color: #f00;
   }
@@ -13,6 +21,18 @@
   .social-link {
     background: rgba(150, 150, 150, 0.5);
     color: blue;
+    height:36px;
+    width: 36px;
+  }
+  .show {
+    display: block;
+
+  }
+
+  /* HERO STYLES */
+  .full-hero {
+    background-color: #c7dbfc;
+    height: 50vh;
   }
 
   /* BIO STYLES */
@@ -36,20 +56,22 @@
 </style>
   </head>
   <body>
-    <h1>I'm an h1</h1>
+  <div class="full-hero">
+    <h1>I'm an h1 </h1>
     <ul>
       <li>
-        <a href="http://example.com/">Link</a>
+        <a href="http://example.com/" class="social-link">Link</a>
       </li>
       <li>
-        <a href="http://example.com/">Link</a>
+       <a href="http://example.com/" class="social-link">Link</a>
       </li>
       <li>
-        <a href="http://example.com/">Link</a>
+        <a href="http://example.com/" class="social-link">Link</a>
       </li>
     </ul>
+  </div>
     <h2>I'm an h2</h2>
-    <div class="bio-wrapper">
+  <div class="bio-wrapper">
       <div class="bio-box">
         <h3>Michael Hartl</h3>
         <a href="http://twitter.com/mhartl" class="social-link">here</a>
@@ -101,6 +123,6 @@
         </p>
       </div>
       </div>
-    </div>
+  </div>
   </body>
 </html>
