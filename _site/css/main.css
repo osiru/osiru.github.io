@@ -120,10 +120,10 @@ h2 ~ p {
 .nav-links a:active  {
   color: #ed6e2f;
 }
-.header-nav > li:first-child a {
+.nav-links > li:first-child a {
   color: #ed6e2f;
 }
-.header-nav > li:first-child a:hover {
+.nav-links > li:first-child a:hover {
   color: #fff;
 }
 
@@ -144,7 +144,7 @@ h2 ~ p {
 .footer h3 span {
   color: #aaa;
 }
-.footer-nav li {
+.footer-nav > li {
   display: inline-block;
   margin: 2em 1em 0;
 }
@@ -184,6 +184,10 @@ h2 ~ p {
 .social-list > li {
   display: inline-block;
   margin: 0 0.5em;
+}
+.footer-social-list {
+position: relative;
+top: 20px;
 }
 
 /* BIO STYLES */
