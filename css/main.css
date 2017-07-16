@@ -155,7 +155,29 @@ h2 ~ p {
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
-  height: 50vh;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100vh;
+  padding-top: 10vh;
+  position: relative;
+}
+.hero-home li {
+  text-align: center;
+}
+.hero-home {
+  background-image:url(/images/shark.jpg);
+  background-position: center top;
+}
+.hero-content {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.hero-content h1 {
+  font-size: 4vw;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0.25em;
 }
 
 /* SOCIAL STYLES */
