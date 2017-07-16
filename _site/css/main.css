@@ -52,9 +52,12 @@ html {
   padding: 0 30px;
 }
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: helvetica, arial, sans;
 }
-hh1 {
+h1 {
   font-size: 7vw;
   margin-top: 0;
 }
@@ -76,6 +79,11 @@ h2 ~ p {
 }
 
 /* HEADER STYLES */
+.content-container {
+  flex-grow: 1;
+  padding: 10vh 0 0 0;
+  width: 100%
+}
 .header {
   background-color: #000;
   color: #fff;
@@ -163,7 +171,7 @@ h2 ~ p {
   background-color: #c7dbfc;
   background-size: cover;
   box-sizing: border-box;
-  height: 100vh;
+  height: 90vh;
   padding-top: 10vh;
   position: relative;
 }
@@ -225,7 +233,7 @@ h2 ~ p {
 }
 .callout-title {
   font-size: 5.75vw;
-  text-align: right;
+  text-align: center;
   text-transform: uppercase;
 }
 .callout-copy {
