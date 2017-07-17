@@ -80,7 +80,7 @@ h2 ~ p {
 
 /* HEADER STYLES */
 .content-container {
-  flex: 1 1 auto;
+  flex-grow: 1;
   padding: 10vh 0 0 0;
   width: 100%
 }
@@ -226,29 +226,17 @@ h2 ~ p {
   margin-bottom: 1.5rem;
   text-align: center;
 }
-
-/* CALLOUT STYLES */
 .home-callout {
-  display: flex;
-  align-items: center;
   background-color: #000;
   color: #fff;
   padding: 7vh 0;
 }
-.home-callout h3 {
-  color: inherit;
-  margin-top: 1em;
-}
 .callout-title {
-  flex: 1;
   font-size: 5.75vw;
-  text-align: right;
+  text-align: center;
   text-transform: uppercase;
 }
 .callout-copy {
-  flex: 0 0 50%;
-  max-width: 600px;
-  padding: 0 3vw;
   font-size: 0.8rem;
 }
 
@@ -316,3 +304,40 @@ top: 20px;
 .bio-copy {
   font-size: 0.75em;
 }
+
+/* 3 COLUMN STYLES */
+
+.col-three {
+  display: flex;
+  flex: 1;
+}
+.col {
+  box-sizing: border-box;
+  padding: 2em;
+}
+.col-three .col ~ .col {
+  border-left: 1px solid rgba( 0, 0, 0, 0.1)
+}
+.col-three .col-nav {
+  flex: 0 1 15em;
+}
+.col-three .col-content {
+  flex: 1 1 0;
+}
+.col-three .col-aside {
+flex: 0 1 20em;
+}
+.content-container {
+  display: flex;
+  flex: 1 1 auto;
+  padding: 10vh 0 0 0;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
