@@ -177,7 +177,7 @@ h2 ~ p {
 }
 .full-hero:after {
   bottom: 2vh;
-  border: 10px solid;
+  border: 14px solid;
   border-color: #fff transparent transparent;
   content: "";
   height: 0;
@@ -306,7 +306,7 @@ top: 20px;
 }
 
 /* 3 COLUMN STYLES */
-
+/*
 .col-three {
   display: flex;
   flex: 1;
@@ -333,7 +333,7 @@ flex: 0 1 20em;
   padding: 10vh 0 0 0;
   width: 100%;
 }
-
+*/
 
 
 
