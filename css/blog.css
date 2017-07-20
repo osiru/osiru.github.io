@@ -61,7 +61,8 @@
 .post-header .social-link {
   margin-right: 0.5em;
 }
-.post-header img {
+.post-header img,
+.blog-title-list img {
   border-radius: 99px;
   display: inline-block;
   height: 2.5em;
