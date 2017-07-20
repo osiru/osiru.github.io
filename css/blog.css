@@ -67,6 +67,9 @@
   height: 2.5em;
   vertical-align: middle;
 }
+.post-header .social-link {
+  font-size: .8rem
+}
 .posts-image {
   background-position: center;
   background-size: cover;
